@@ -6,6 +6,7 @@ public class Bullet : MonoBehaviour
 {
     public float life = 3f;
     EnemyKilled EnemyKilled;
+    public GameObject explosionEffect;
     // Start is called before the first frame update
     void Awake()
     {
@@ -21,6 +22,8 @@ public class Bullet : MonoBehaviour
         {
             EnemyKilled.Count();
             Destroy(collision.gameObject);
+            GameObject explosion = Instantiate(explosionEffect, transform.position, transform.rotation);
+            Destroy(explosion, 2f);
             Destroy(gameObject);
         }
     }

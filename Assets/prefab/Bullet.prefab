@@ -128,3 +128,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   life: 6
+  explosionEffect: {fileID: 6033048605374372897, guid: 82a5312edafe5814bbe4504fe0fbd667, type: 3}

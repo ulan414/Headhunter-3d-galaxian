@@ -2247,6 +2247,10 @@ MonoBehaviour:
     enemy: {fileID: 472913987380354445, guid: 99817d2fc24191f4d9d01fd16a08ad88, type: 3}
     count: 7
     rate: 0.1
+  - name: third wave
+    enemy: {fileID: 472913987380354445, guid: 99817d2fc24191f4d9d01fd16a08ad88, type: 3}
+    count: 9
+    rate: 0.1
   timeBetweenWaves: 5
   waveCountDown: 0
 --- !u!114 &1208583150
